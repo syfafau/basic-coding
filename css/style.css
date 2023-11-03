@@ -1,0 +1,60 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Bungee+Shade&family=Flavors&family=Lilita+One&family=Playpen+Sans&family=Fredericka+the+Great&family=Gluten:wght@400;500;600&display=swap');
+  
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1000px;
+  margin: auto;
+  background: #8dabc1 url("img/iconbg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom; 
+}
+
+#header {
+    background-image: url("img/coding2.jpg");
+    background-size: cover;
+    font-size: 30px;
+    color: rgb(253, 247, 247);
+       font-family: 'Lilita One', sans-serif;
+       text-align: center;
+       text-shadow: 2px 2px 5px rgb(164, 238, 248);
+    padding: 50px;
+    position: fixed;
+       left: 0px;
+       right: 0px;
+  }
+
+  p {
+    margin-top: 15px;
+  }
+
+  a {
+    text-decoration: none;
+     font-family: 'Gluten', cursive;
+     font-size: 35px;
+     color: rgb(29, 33, 68);
+    background-color: rgb(120, 224, 255);
+     border: 5px solid rgb(19, 33, 71);
+     border-radius: 10px;
+    display: flex;
+     height: 120px;
+     align-items: center;
+     justify-content: center;
+     top: 250px;
+     position: relative;
+  }
+  a:hover{
+    color: rgb(250, 251, 252);
+  }
+
+a.xyz {
+  margin-bottom: 20px;
+
+}
