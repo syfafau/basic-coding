@@ -1,7 +1,6 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Josefin+Sans:ital,wght@0,200;1,300;1,400&family=Lilita+One&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Bungee+Shade&family=Flavors&family=Lilita+One&family=Playpen+Sans&family=Fredericka+the+Great&family=Gluten:wght@400;500;600&display=swap');
-  
 * {
   margin: 0px;
   padding: 0px;
@@ -11,10 +10,11 @@
 body {
   max-width: 1000px;
   margin: auto;
-  background: #8dabc1 url("img/iconbg.png");
+  background: #8dabc1 url("img/giphy.gif");
+  background-blend-mode:lighten;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: left bottom; 
+  background-size: cover; 
 }
 
 #header {
@@ -22,7 +22,7 @@ body {
     background-size: cover;
     font-size: 30px;
     color: rgb(253, 247, 247);
-       font-family: 'Lilita One', sans-serif;
+    font-family: 'Lilita One', sans-serif;    
        text-align: center;
        text-shadow: 2px 2px 5px rgb(164, 238, 248);
     padding: 50px;
@@ -31,14 +31,20 @@ body {
        right: 0px;
   }
 
+  #header span{
+    background: rgb(240, 221, 118);
+    color: rgb(243, 237, 130), 215);
+  }
+
   p {
+    font-family: 'Josefin Sans', sans-serif;
     margin-top: 15px;
   }
 
   a {
     text-decoration: none;
-     font-family: 'Gluten', cursive;
-     font-size: 35px;
+     font-family: 'Amaranth', sans-serif; 
+     font-size: 40px;
      color: rgb(29, 33, 68);
     background-color: rgb(120, 224, 255);
      border: 5px solid rgb(19, 33, 71);
