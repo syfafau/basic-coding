@@ -57,7 +57,12 @@ body {
      top: 250px;
      position: relative;
   }
+
   a:hover{
+    overflow: hidden;
+    transition: 0.8s;
+    transform: scale(1.05);
+    will-change: transform;
     color: rgb(250, 251, 252);
   }
 
