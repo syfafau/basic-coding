@@ -62,7 +62,6 @@ body {
     overflow: hidden;
     transition: 0.8s;
     transform: scale(1.05);
-    will-change: transform;
     color: rgb(207, 250, 250);
   }
 
