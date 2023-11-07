@@ -31,8 +31,14 @@ body {
        right: 0px;
   }
 
+#header span{
+    background: #f0ec78;
+    color: rgb(29, 33, 68);
+}
+
   p {
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
     margin-top: 15px;
   }
 
