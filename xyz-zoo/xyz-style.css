@@ -48,7 +48,7 @@ body {
    font-family: 'Love Ya Like A Sister', cursive;
    font-size: 60px;
    color: rgb(244, 248, 248);
-  z-index: 10;
+   z-index: 10;
 }
 
 .animal-list > li {
@@ -104,3 +104,4 @@ padding: 20px 15px;
   font-family: 'ABeeZee', sans-serif;
   text-decoration: none;
 }
+
