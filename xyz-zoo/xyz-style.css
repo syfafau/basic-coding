@@ -1,0 +1,106 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Concert+One&family=Josefin+Sans:wght@300&family=Love+Ya+Like+A+Sister&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+#zoo {
+background: rgb(117, 180, 182);
+}
+
+body {
+  font-family: 'Concert One', sans-serif;
+  color: rgb(54, 52, 50);
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+#zoo .top{
+    background: url(img/zoo.jpg) no-repeat center;
+    background-size: cover ;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 8px solid rgb(202, 106, 17);
+}
+
+#zoo .top::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(37, 44, 44, 0.616);
+}
+
+#zoo .top h1 {
+   font-family: 'Love Ya Like A Sister', cursive;
+   font-size: 60px;
+   color: rgb(244, 248, 248);
+  z-index: 10;
+}
+
+.animal-list > li {
+background: rgb(139, 132, 132);
+border-radius: 12px;
+display: flex;
+flex-wrap: wrap;
+margin: 25px 0;
+padding: 20px 15px;
+}
+
+.animal-list > li h2 {
+  width: 100%;
+}
+
+.familia-list {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.familia-list li{
+  width: 48%;
+  list-style: none;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.familia-list img {
+  display: block;
+  width: 100%;
+}
+
+.source {
+   background: rgb(202, 106, 17);
+   display: flex;
+   padding: 15px 0;
+   justify-content: center;
+}
+.source ol {
+   margin-left: 30px;
+   display: flex;
+   align-items: center;
+}
+
+.source ol li{
+  margin-right: 40px;    
+  color: #fff;
+}
+
+.source ol li a{
+  color: #fff;
+  font-family: 'ABeeZee', sans-serif;
+  text-decoration: none;
+}
