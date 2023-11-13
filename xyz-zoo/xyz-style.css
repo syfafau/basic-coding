@@ -8,10 +8,7 @@
     box-sizing: border-box;
   }
 #zoo {
-background: rgb(117, 180, 182);
-}
-
-body {
+  background: rgb(117, 180, 182);
   font-family: 'Concert One', sans-serif;
   color: rgb(54, 52, 50);
 }
@@ -52,7 +49,7 @@ body {
 }
 
 .animal-list > li {
-background: rgb(139, 132, 132);
+background: rgb(230, 224, 224);
 border-radius: 12px;
 display: flex;
 flex-wrap: wrap;
@@ -105,3 +102,18 @@ padding: 20px 15px;
   text-decoration: none;
 }
 
+@media only screen and (max-width: 900px) {
+  .container {
+      padding: 0 10px 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+}
+
+@media only screen and (max-width: 425px) {
+  .familia-list li{
+      width: 100%;
+  }
+}

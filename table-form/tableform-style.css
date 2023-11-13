@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@100&family=Josefin+Sans:wght@300&family=Rancho&family=Zen+Antique&family=Zen+Kaku+Gothic+New:wght@300;400&display=swap');
 
 * {
     margin: 0px;
@@ -14,17 +14,18 @@ table {
 }
 
 .top-text {
+    font-family: 'Zen Antique', serif;
     width: 100%;
     display: block;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px ;
 }
 
 .container {
     width: 100%;
     max-width: 900px;
     margin: auto;
-    
+    font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
 .tab {
@@ -40,7 +41,7 @@ margin-bottom: 30px;
 }
 
 #tbl-form {
-    background-image: linear-gradient(90deg, rgb(221, 150, 150), rgb(172, 208, 230));
+    background-image: linear-gradient(to bottom right, rgb(221, 150, 150), rgb(236, 197, 248) );
     padding: 30px 0;
 }
 
@@ -51,9 +52,14 @@ margin-bottom: 30px;
 }
 
 .ft-tab table th {
-    background-color: aquamarine;
+    background-color: rgb(160, 233, 227) ;
 }
- 
+
+.sec-tab table th {
+    background-color: rgb(160, 233, 227) ;
+
+}
+
 .tab table th, .tab table td {
     border: solid 1px rgb(38, 39, 43);
     padding: 5px 0;
@@ -64,6 +70,7 @@ form {
     width: 90%;
     max-width: 600px;
     margin: 0 auto;
+    border-radius: 8px;
 }
 
 .form h2 {
@@ -75,24 +82,31 @@ form {
     background-color: bisque;
     border: none;
     padding: 10px;
+    border-radius: 8px;
 }
 
 .form textarea {
     width: 100%;
-    background-color: #a59bc7;
+    background-color: bisque;
     border: none;
     padding: 10px;  
+    border-radius: 8px;
 }
 
 .form button {
     width: 100%;
-    background-color: aquamarine;
+    background-color: rgb(221, 150, 150);
     color: rgb(26, 26, 29);
     padding: 10px;
     border: none;
     cursor: pointer;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 800   ;
+    font-size: 20px;
+    border-radius: 8px;
+
 }
 
 .form button:hover {
-    background-color: #252222;
+    background-color:rgb(160, 233, 227) ;
 }
