@@ -26,6 +26,7 @@ table {
     max-width: 900px;
     margin: auto;
     font-family: 'Zen Kaku Gothic New', sans-serif;
+    box-shadow: 3px 4px 20px 3px rgb(68, 69, 73);
 }
 
 .tab {
@@ -95,18 +96,20 @@ form {
 
 .form button {
     width: 100%;
+    box-shadow: 3px 4px 8px 3px rgb(68, 69, 73);
     background-color: rgb(221, 150, 150);
-    color: rgb(26, 26, 29);
     padding: 10px;
     border: none;
     cursor: pointer;
     font-family: 'Zen Kaku Gothic New', sans-serif;
-    font-weight: 800   ;
+    font-weight: 800  ;
     font-size: 20px;
+    color: rgb(255, 255, 255);
     border-radius: 8px;
-
+    box-shadow: rgba(58, 65, 111, .5) 0 -3px 0 inset;
 }
 
 .form button:hover {
     background-color:rgb(160, 233, 227) ;
 }
+  
