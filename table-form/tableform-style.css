@@ -106,7 +106,7 @@ form {
     font-size: 20px;
     color: rgb(255, 255, 255);
     border-radius: 8px;
-    box-shadow: rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-shadow: rgba(223, 95, 216, 0.5) 0 -3px 0 inset;
 }
 
 .form button:hover {
