@@ -10,6 +10,7 @@
 #zoo {
   background: rgb(117, 180, 182);
   font-family: 'Concert One', sans-serif;
+  font-size: 20px;
   color: rgb(54, 52, 50);
 }
 
@@ -43,7 +44,7 @@
 
 #zoo .top h1 {
    font-family: 'Love Ya Like A Sister', cursive;
-   font-size: 60px;
+   font-size: 90px;
    color: rgb(244, 248, 248);
    z-index: 10;
 }
@@ -59,6 +60,7 @@ padding: 20px 15px;
 
 .animal-list > li h2 {
   width: 100%;
+  text-align: center;
 }
 
 .familia-list {
@@ -72,11 +74,21 @@ padding: 20px 15px;
   width: 48%;
   list-style: none;
   font-family: 'ABeeZee', sans-serif;
+  background-color: white;
+  font-size: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 10px 20px;
 }
 
 .familia-list img {
   display: block;
   width: 100%;
+}
+
+.familia-list img:hover {
+    transform: scale(1.2, 1.2);
+    opacity: 1;
 }
 
 .source {
