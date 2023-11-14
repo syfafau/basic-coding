@@ -114,6 +114,27 @@ padding: 20px 15px;
   text-decoration: none;
 }
 
+.arrow-left {
+position: relative;
+right: -50px;
+bottom: 10px;
+}
+
+.arrow-left img {
+width: 40px;
+}
+
+.arrow-right {
+  position: relative;
+  right: -50px;
+  bottom: 10px;
+  left: 1750px;
+  }
+  
+  .arrow-right img {
+  width: 40px;
+  }
+
 @media only screen and (max-width: 900px) {
   .container {
       padding: 0 10px 15px;
