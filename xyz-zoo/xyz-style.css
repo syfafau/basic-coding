@@ -121,26 +121,29 @@ bottom: 10px;
 }
 
 .arrow-left img {
-width: 40px;
+  width: 100%;
+  max-width: 40px;
 }
 
 .arrow-right {
   position: relative;
-  right: -50px;
+  right: -20px;
   bottom: 10px;
   left: 1750px;
   }
   
   .arrow-right img {
-  width: 40px;
+  width: 100%;
+  max-width: 40px;
   }
-
 
 @media only screen and (max-width: 425px) {
   .familia-list {
     display: block;
   }
+
   .familia-list li {
-      width: 100%;
+    width: 100%;
   }
+  
 }
