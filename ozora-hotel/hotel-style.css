@@ -1,0 +1,51 @@
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#wrapper {
+    height: 4150px;
+    max-width: 990px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    position: relative;
+}
+
+.elemen-top {
+  position: relative;
+  top: -169px;;
+  z-index: 301;
+}
+
+.latar-text {
+  z-index: 333;
+  position: relative;
+  left: 46px;
+  top: -900px;
+}
+
+.bird {
+  position: relative;
+  left: 60px;
+  top: -1200px;
+  z-index: 338;
+}
+.bingkai {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 30px;
+    top: 909px;
+    width: 557px;
+    height: 375px;
+    z-index: 242;
+  }
+  
