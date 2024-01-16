@@ -20,25 +20,92 @@ body {
     position: relative;
 }
 
-.elemen-top {
+#slideshow {
+  overflow: hidden;
+  height: 590px;
+  width: 990px;
+  margin: 0 auto;
   position: relative;
-  top: -169px;;
-  z-index: 301;
 }
 
-.latar-text {
-  z-index: 333;
-  position: relative;
-  left: 46px;
-  top: -900px;
+.slide-wrapper {
+  width: 2970px;
+  animation: slide 18s ease infinite;
 }
 
-.bird {
-  position: relative;
-  left: 60px;
-  top: -1200px;
-  z-index: 338;
+@keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -990px;}
+  50% {margin-left: -990px;}
+  70% {margin-left: -1980px;}
+  90% {margin-left: -1980px;}
 }
+
+.slide {
+  float: left;
+  height: 590px;
+  width: 990px;
+}
+
+.background-top {
+  position: relative;
+  top: -520px;
+  left: 50px;
+}
+
+.title {
+  position: relative;
+  top: -600px;
+  right: 300px;
+}
+
+.title-2 {
+  position: relative;
+  top: -630px;
+  left: 200px;
+}
+
+.shape {
+  position: relative;
+  top: -660px;
+}
+
+.shape-1 {
+  border-width: 2.51px;
+  border-color: rgb(241, 177, 146);
+  border-style: dashed;
+  position: absolute;
+  left: 258px;
+  top: 633px;
+  width: 0;
+  height: 65.98px;
+  z-index: 322;
+}
+
+.shape-2 {
+  border-width: 2.51px;
+  border-color: rgb(241, 177, 146);
+  border-style: dashed;
+  position: absolute;
+  left: 487px;
+  top: 633px;
+  width: 0;
+  height: 65.98px;
+  z-index: 317;
+}
+
+.shape-3 {
+  border-width: 2.51px;
+  border-color: rgb(241, 177, 146);
+  border-style: dashed;
+  position: relative;
+  left: 744px;
+  top: -800px;
+  width: 0;
+  height: 65.98px;
+  z-index: 310;
+}
+
 .bingkai {
     background-color: rgb(255, 255, 255);
     position: absolute;
@@ -49,3 +116,36 @@ body {
     z-index: 242;
   }
   
+  .icon-1 {
+    position: relative;
+    left: 147px;
+    top: -740px;
+  }
+
+.title-menu1 {
+  position: relative;
+  left: 160px;
+  top: -760px;
+}
+ 
+.rounded-1 {
+  background-color: rgb(208, 249, 218);
+  opacity: 0.769;
+  position: absolute;
+  left: 670px;
+  top: 918px;
+  width: 320px;
+  height: 166px;
+  border-radius: 48% 0 0 48% / 80%;
+}
+
+.rounded-2 {
+  background-color: rgb(251, 240, 177);
+  opacity: 0.769;
+  position: relative;
+  left: 670px;
+  top: -505px;
+  width: 320px;
+  height: 166px;
+  border-radius: 48% 0 0 48% / 80%;
+}
