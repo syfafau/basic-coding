@@ -90,38 +90,122 @@ nav ul li a:hover {
   color: #eee171;
 }
 
-#menu1 {
-    max-width: 990px;
-    width: 100%;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-}
-.title-menu1 {
-  margin: 100px 200px 50px;
-
+#menuwrap{
+  max-width: 990px;
+  width: 100%;
+  margin: auto;
+  padding: 80px 0px 80px;
+  position: relative;
 }
 
-.slide-menu1 {
-	overflow: hidden;
+
+.title-menu{
+margin:0px 200px 30px;
 }
 
-@keyframes slide {
-	0% { left: 0; }
-	30% { left: 0; }
-	33% { left: -25%; }
-	63% { left: -25%; }
-	66% { left: -50%; }
-	95% { left: -50%; }
-	100% { left: 0; }
-}
-.slide-menu1 figure {
-	width:100%;
-	position: relative;
-	animation: 9s slider infinite;
+.title-menu img {
+  max-width: 100%;
 }
 
-.slide-menu1 figure img {
-	height : 100%;
-	float: left;
+.trigger {
+  display: none;
+}
+
+.slider {
+  position: relative;
+  height: 350px;
+  z-index: -6;
+}
+
+.slide {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -100;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.slide-img {
+  height: 100%;
+}
+
+.slide-figure {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  z-index: -300;
+}
+
+.slide-caption {
+  position: absolute   ;
+  top: 80%;
+  width: calc(100% - 6rem);
+  color: rgb(29, 26, 26);
+  text-align: center;
+  right: 28%;
+  z-index: 2000;
+}
+
+.trigger:checked + .slide {
+  z-index: 0;
+  opacity: 1;
+}
+
+.slider-nav {
+  width: 100%;
+  text-align: left;
+  margin: 1rem 13rem;
+}
+
+.slider-nav__item {
+  display: inline-block;
+}
+
+.slider-nav__label {
+  font-size: 6px;
+  background-color:transparent;
+  display: block;
+  height: 2em;
+  line-height: 2em;
+  width: 2em;
+  text-align: center;
+  border-radius: 50%;
+  border: solid 2px  rgb(182, 160, 136);
+  color: white;
+  cursor: pointer;
+  transition: background-color .25s, color .25s ease-in-out;
+}
+
+.slider-nav__label:hover,
+.slider-nav__label:active,
+.slider-nav__label:focus 
+
+input:checked + label{
+  background-color: rgb(253, 226, 194);;
+}
+
+.rounded-1 {
+  background-color: rgb(208, 249, 218);
+  opacity: 0.769;
+  position: absolute;
+  width: 320px;
+  height: 166px;
+  border-radius: 48% 0 0 48% / 80%;
+}
+
+.rounded-2 {
+  background-color: rgb(251, 240, 177);
+  opacity: 0.769;
+  position: relative;
+  width: 320px;
+  height: 166px;
+  border-radius: 48% 0 0 48% / 80%;
+}
+
+.menu-cont {
+  display:flex ;
 }
