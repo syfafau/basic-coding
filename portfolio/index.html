@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger menu</title>
+    <style>
+        /*[BIG SCREEN CSS] */
+        /* WRAPPER */
+        #hamnav {
+            width: 100%;
+            background-color: rgb(250, 244, 234);
+        }
+
+        /* HIDE HAMBURGER ICON */
+        #hamnav label, #hamburger {display: none;}
+
+        /* MENU ITEMS */
+        #hamitems {
+         display: flex;
+        }
+
+        #hamitems a{
+         padding: 10px;
+         color: #4e3a31;
+         text-decoration: none;
+         text-align: center;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!--Hamburger menu-->
+    <nav id="hamnav">
+    <!--Hamburger icon-->
+    <label for="hamburger">&#9776;</label>
+    <input type="checkbox" id="hamburger"/>
+
+    
+    <!--Hamburger menu-->
+    <div id="hamitems">
+        <a href="a.html">Design</a>
+        <a href="b.html">Project</a>
+        <a href="c.html">About</a>
+        <a href="d.html">Contact</a>
+    </div>
+    </nav>
+
+    <div>
+        <div class="cover">
+            <img src="../image/cover.png" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
